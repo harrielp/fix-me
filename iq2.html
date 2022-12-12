@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <meta charset="utf-8">
+        <title>FIX ME!!!!!</title>
+    </head>
+
+    <body>
+
+      <header>
+      </header>
+
+      <div class="iqcontainer">
+        <img src="images/IQ2.png" class="bg"/>
+        <button class="btnA" id = "wrong" onclick="show()">  </button>
+        <button class="btnB" id = "wrong" onclick="show2()">  </button>
+        <button class="btnC" id = "wrong" onclick="show3()">  </button>
+        <a href="iq3.html">
+          <button class="btnD">  </button>
+        </a>
+      </div>
+
+      <img src="images/scribbles.png" id="popup"/>
+      <img src="images/scribbles2.png" id="popup2"/>
+      <img src="images/scribbles3.png" id="popup3"/>
+      <img src="images/dizzy.GIF" id="dizzyinmiddle">
+
+      <script>
+        function show() {
+          document.getElementById('popup').style.display = "block";
+          document.getElementById('dizzyinmiddle').style.display = "block";
+          window.setTimeout("document.getElementById('popup').style.display='none';", 600)
+          window.setTimeout("document.getElementById('dizzyinmiddle').style.display='none';", 600)
+        }
+        function show2() {
+          document.getElementById('popup2').style.display = "block";
+          document.getElementById('dizzyinmiddle').style.display = "block";
+          window.setTimeout("document.getElementById('popup2').style.display='none';", 600)
+          window.setTimeout("document.getElementById('dizzyinmiddle').style.display='none';", 600)
+        }
+        function show3() {
+          document.getElementById('popup3').style.display = "block";
+          document.getElementById('dizzyinmiddle').style.display = "block";
+          window.setTimeout("document.getElementById('popup3').style.display='none';", 600)
+          window.setTimeout("document.getElementById('dizzyinmiddle').style.display='none';", 600)
+        }
+      </script>
+
+    </body>
+
+</html>

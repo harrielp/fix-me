@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <meta charset="utf-8">
+        <title>FIX ME!!!!!</title>
+    </head>
+
+    <body>
+
+      <header>
+      </header>
+
+      <div class="iqcontainer">
+        <img src="images/meds.png" class="bg"/>
+        <button class="pill" id="pill">  </button>
+        <img src="images/dont.png" id="dont"/>
+        <a href="index.html">
+          <button class="dont" id="dontbtn">  </button>
+        </a>
+      </div>
+
+      <img src="images/smiley.gif" id="smile"/>
+
+      <img src="images/giphy.gif" id="repeat"/>
+      <img src="images/giphy.gif" id="repeat2"/>
+      <img src="images/giphy.gif" id="repeat3"/>
+      <img src="images/giphy.gif" id="repeat4"/>
+      <img src="images/giphy.gif" id="repeat5"/>
+      <img src="images/giphy.gif" id="repeat6"/>
+      <img src="images/giphy.gif" id="repeat7"/>
+      <img src="images/giphy.gif" id="repeat8"/>
+      <img src="images/giphy.gif" id="repeat9"/>
+      <img src="images/giphy.gif" id="repeat10"/>
+      <img src="images/giphy.gif" id="repeat11"/>
+      <img src="images/giphy.gif" id="repeat12"/>
+      <img src="images/giphy.gif" id="repeat13"/>
+      <img src="images/giphy.gif" id="repeat14"/>
+      <img src="images/giphy.gif" id="repeat15"/>
+
+      <script>
+        var mouseTimer;
+
+        function mouseDown() {
+          mouseUp();
+          mouseTimer = window.setTimeout(execMouseDown,800);
+        }
+
+        function mouseUp() {
+          if (mouseTimer) window.clearTimeout(mouseTimer);
+          document.getElementById('smile').style.display = "none";
+          document.getElementById('repeat').style.display = "none";
+          document.getElementById('repeat2').style.display = "none";
+          document.getElementById('repeat3').style.display = "none";
+          document.getElementById('repeat4').style.display = "none";
+          document.getElementById('repeat5').style.display = "none";
+          document.getElementById('repeat6').style.display = "none";
+          document.getElementById('repeat7').style.display = "none";
+          document.getElementById('repeat8').style.display = "none";
+          document.getElementById('repeat9').style.display = "none";
+          document.getElementById('repeat10').style.display = "none";
+          document.getElementById('repeat11').style.display = "none";
+          document.getElementById('repeat12').style.display = "none";
+          document.getElementById('repeat13').style.display = "none";
+          document.getElementById('repeat14').style.display = "none";
+          document.getElementById('repeat15').style.display = "none";
+        }
+
+        function execMouseDown() {
+          document.getElementById('smile').style.display = "block";
+          document.getElementById('repeat').style.display = "block";
+          document.getElementById('repeat2').style.display = "block";
+          document.getElementById('repeat3').style.display = "block";
+          document.getElementById('repeat4').style.display = "block";
+          document.getElementById('repeat5').style.display = "block";
+          document.getElementById('repeat6').style.display = "block";
+          document.getElementById('repeat7').style.display = "block";
+          document.getElementById('repeat8').style.display = "block";
+          document.getElementById('repeat9').style.display = "block";
+          document.getElementById('repeat10').style.display = "block";
+          document.getElementById('repeat11').style.display = "block";
+          document.getElementById('repeat12').style.display = "block";
+          document.getElementById('repeat13').style.display = "block";
+          document.getElementById('repeat14').style.display = "block";
+          document.getElementById('repeat15').style.display = "block";
+        }
+
+        document.getElementById('pill').addEventListener("mousedown", mouseDown);
+        document.body.addEventListener("mouseup", mouseUp);
+      </script>
+
+    </body>
+
+</html>

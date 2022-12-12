@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <meta charset="utf-8">
+        <title>FIX ME!!!!!</title>
+    </head>
+
+    <body>
+
+      <header>
+      </header>
+
+      <div class="iqcontainer">
+        <img src="images/IQ1.png" class="bg"/>
+        <button class="btnA" id = "wrong" onclick="show()">  </button>
+        <button class="btnB" id = "wrong" onclick="show2()">  </button>
+        <a href="iq2.html">
+          <button class="btnC">  </button>
+        </a>
+        <button class="btnD" id = "wrong" onclick="show3()">  </button>
+      </div>
+
+      <img src="images/popup.png" id="popup"/>
+      <img src="images/popup2.png" id="popup2"/>
+      <img src="images/popup3.png" id="popup3"/>
+
+      <script>
+        function show() {
+          document.getElementById('popup').style.display = "block";
+          window.setTimeout("document.getElementById('popup').style.display='none';", 480)
+        }
+        function show2() {
+          document.getElementById('popup2').style.display = "block";
+          window.setTimeout("document.getElementById('popup2').style.display='none';", 480)
+        }
+        function show3() {
+          document.getElementById('popup3').style.display = "block";
+          window.setTimeout("document.getElementById('popup3').style.display='none';", 480)
+        }
+      </script>
+
+    </body>
+
+</html>
